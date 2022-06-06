@@ -1,10 +1,14 @@
 {
   "name": "hexo-lazylaod-imagev2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a high performance hexo plugin for lazy load img",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjlstruggle/hexo-lazyload-imgv2.git"
   },
   "keywords": [
     "lazyload",
