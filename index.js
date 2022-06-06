@@ -1,0 +1,10 @@
+'use strict';
+if (hexo.config.lazylaod && hexo.config.lazyload.enable) {
+    if (hexo.config.lazyload.onlypost) {
+        hexo.extend.filter.register('after_post_render', require('./lib/process').processPost);
+    }
+    else {
+        hexo.extend.filter.register('after_render:html', require('./lib/process').processSite);
+    }
+    hexo.extend.filter.register('after_render:html', require('./lib/addscripts').addScript);
+}
