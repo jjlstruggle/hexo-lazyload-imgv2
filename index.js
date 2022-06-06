@@ -1,5 +1,5 @@
 'use strict';
-if (hexo.config.lazylaod && hexo.config.lazyload.enable) {
+if (hexo.config.lazyload && hexo.config.lazyload.enable) {
     if (hexo.config.lazyload.onlypost) {
         hexo.extend.filter.register('after_post_render', require('./lib/process').processPost);
     }
