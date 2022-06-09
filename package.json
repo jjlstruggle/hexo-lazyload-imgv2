@@ -1,6 +1,6 @@
 {
   "name": "hexo-lazylaod-imagev2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a high performance hexo plugin for lazy load img",
   "main": "index.js",
   "scripts": {
